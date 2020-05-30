@@ -1,0 +1,20 @@
+version: '3'
+services:
+  mysql:
+    container_name: sample-mysql1 #作成されていると出来ないので新しく作成する場合ここの名前を変更
+    build: ./mysql/ #mysqlのDockerfileを使用してコンテナ
+    environment:
+      MYSQL_ROOT_PASSWORD: example # これでmysqlのrootユーザー exampleパスで入れる
+    restart: always
+    ports:
+      - 3306:3306
+
+  apach:
+    container_name: sample-apache-container1 #作成されていると出来ないので新しく作成する場合ここの名前を変更
+    build: ./apach/  #apachのDockerfileを使用してコンテナ作成
+    ports:
+      - 80:80
+    depends_on: #apach開始の前にmysqlを起動する
+      - mysql
+    volumes:
+      - ./apach/html:/var/www/html # コンテナ var/www/html の中に/apach/htmlの中身を入れる
