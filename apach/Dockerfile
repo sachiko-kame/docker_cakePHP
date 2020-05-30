@@ -12,7 +12,7 @@ unzip
 # could not find driver』の対応 mysql使いたい
 RUN docker-php-ext-install mysqli pdo pdo_mysql intl
 
-# 入ってここからが比較的行いやすいかと ymlに記述
+# 入ってここからが比較的行いやすいかと コンテナ入って作業する場所
 WORKDIR /var/www/html
 
 # vimコマンド使いたくて入れているのみ 入れなくても良い
