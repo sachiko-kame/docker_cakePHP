@@ -1,5 +1,7 @@
 # docker_cakePHP
 
+💁‍♀️データベース接続の確認まで行っていますが最後確認はリライトの表示のみです。
+
 ## Step1 必要コンテナ作成まで！
 クローン<br>
 `$ git clone https://github.com/sachiko-kame/docker_cakePHP.git`
