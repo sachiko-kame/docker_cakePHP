@@ -1,6 +1,9 @@
 # docker_cakePHP
 
 ## Step1 必要コンテナ作成まで！
+クローン<br>
+`$ git clone https://github.com/sachiko-kame/docker_cakePHP.git`
+
 クローンして**docker-compose.yml**ファイルなどあるところで以下コマンド<br>
 `$ docker-compose up --build -d` <br>
 
@@ -43,7 +46,7 @@ root@d6e752c1a5b7:/var/www/html#
 `$ php composer.phar create-project --prefer-dist cakephp/app:4.* my_app_name` <br>
 Set Folder Permissions ? (Default to Y) [Y,n]?と聞かれてらyにしてエンター！<br>
 
-****cakePHPフォルダ**を移動する <br>
+**cakePHP**フォルダ中身を移動する <br>
 `$ mv my_app_name/* /var/www/html/`
 
 output👁 <br>
