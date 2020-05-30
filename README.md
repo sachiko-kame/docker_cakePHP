@@ -68,7 +68,7 @@ README.md  bin	composer.json  composer.lock  composer.phar  config  index.php	lo
 apache　out🚪 <br>
 
 ## Step3 出ているエラーの解決
-ファイルのアクセス権限の問題なので以下コマンドうつ
+ファイルのアクセス権限の問題なので以下コマンドうつ<br>
 `$ chmod -R 777 apach/html/logs` <br>
 `$ chmod -R 777 apach/html/tmp ` <br>
 
