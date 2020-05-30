@@ -24,7 +24,7 @@ output👁 <br>
 ```
 
 出たipをブラウザに貼り確認。 <br>
-![イメージ](https://github.com/sachiko-kame/docker_cakePHP/blob/master/image1.png)
+<img src="https://github.com/sachiko-kame/docker_cakePHP/blob/master/image1.png" width="500">
 
 ## Step2 apacheコンテナに入りcakePHPインストールまで
 アパッチコンテナ入る。以下コマンド。**d6e752c1a5b7**は自分のものを入れてください <br>
@@ -54,10 +54,10 @@ README.md  bin	composer.json  composer.lock  composer.phar  config  index.php	lo
 ```
 
 ブラウザリロードして以下のようになっていればOK!!<br>
-![イメージ](https://github.com/sachiko-kame/docker_cakePHP/blob/master/image2.png)
+<img src="https://github.com/sachiko-kame/docker_cakePHP/blob/master/image2.png" width="500">
 
 もう一度リロード以下のようになるのもOK!!<br>
-![イメージ](https://github.com/sachiko-kame/docker_cakePHP/blob/master/image3.png)
+<img src="https://github.com/sachiko-kame/docker_cakePHP/blob/master/image3.png" width="500">
 
 コンテナから出る<br>
 `$ exit`
@@ -154,7 +154,7 @@ mysql　out🚪 <br>
 ```
 できると以下のようにデータベース接続出来た形になっているかと思います <br>
 
-![イメージ](https://github.com/sachiko-kame/docker_cakePHP/blob/master/image4.png)
+<img src="https://github.com/sachiko-kame/docker_cakePHP/blob/master/image4.png" width="500">
 
 
 ## Step5 cakePHPリライトできるようにapache周辺の設定をする
@@ -174,7 +174,7 @@ apache　out (auto)🚪 <br>
 `$ docker-compose up --build -d` <br>
 
 ここで以下のように移動されていないファイルあれば移動する
-![イメージ](https://github.com/sachiko-kame/docker_cakePHP/blob/master/image5.png)
+<img src="https://github.com/sachiko-kame/docker_cakePHP/blob/master/image5.png" width="500">
 
 ipアドレス/pagesのような形で打ってipアドレスに戻ってくればOKです！
 
@@ -205,4 +205,4 @@ index.phpには以下のように適当に何か書いておけば問題ない�
 ```
 <h1>sample!!!</h1>
 ```
-![イメージ](https://github.com/sachiko-kame/docker_cakePHP/blob/master/image6.png)
+<img src="https://github.com/sachiko-kame/docker_cakePHP/blob/master/image6.png" width="500">
