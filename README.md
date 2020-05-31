@@ -76,7 +76,7 @@ apache　out🚪 <br>
 
 ブラウザリロードしてエラーが消えていればOK<br>
 
-## Step4 コンテナにデータベース作成、cakePHPのデータベース接続まで完了させる。
+## Step4 mysqlコンテナにデータベース作成、cakePHPのデータベース接続まで完了させる。
 mysqlコンテナに入る。**602a4868b08b**は自分のものを入れてください  <br>
 `$ docker exec -i -t 602a4868b08b bash` <br>
 
