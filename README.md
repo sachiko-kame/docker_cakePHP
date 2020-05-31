@@ -1,5 +1,7 @@
 # docker_cakePHP
 
+English ver →　https://dev.to/sachikokame/i-tried-using-cakephp-4-0-8-with-docker-apach-55af
+
 💁‍♀️データベース接続の確認まで行っていますが、最後確認はリライトの確認のみです。
 
 ## Step1 必要コンテナ作成まで！
